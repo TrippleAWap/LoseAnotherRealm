@@ -14,8 +14,6 @@ node index.js
 
 💥 WE ARE NOT RESPONSIBLE FOR YOUR ACTIONS AND THIS MAY RESULT IN A BAN 💥
 
-# INFO
-
 ### ERRORS
 If an error occurs please check the error message and see if it there's info coralated for said info. ***Automatic error conversion may be implemeted.***
 
