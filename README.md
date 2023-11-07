@@ -8,5 +8,5 @@ A Realm/Server crasher made using the bedrock-protocol packet which bypasses fai
 @echo off
 git clone https://github.com/TrippleAWap/LoseAnotherRealm.git TrippleAWap-LoseAnotherRealm
 npm install
-@echo Installation Complete, edit the configuration in config.json
+@echo Installation Complete, run `node index.js` or run start.bat to start the application.
 ```
