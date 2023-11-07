@@ -13,3 +13,20 @@ node index.js
 ⚠️ THIS IS NOT 100% FINISHED BUT NO UPDATES WILL BE PROMISED ⚠️
 
 💥 WE ARE NOT RESPONSIBLE FOR YOUR ACTIONS AND THIS MAY RESULT IN A BAN 💥
+
+# INFO
+
+### ERRORS
+If an error occurs please check the error message and see if it there's info coralated for said info. ***Automatic error conversion may be implemeted.***
+
+> ## Unauthorized
+
+> Occurs when the account hasen't been authorized to MCBE, can be fixed by login in to the account on MCBE.
+
+> ## User found in blocklist
+
+> Occurs when the account has been blocked from the realm.
+
+> ## serverId Conflict
+
+> Occurs when the account tries to reconnect when the account is still in-game, this can be ignored as it doesn't change behaviour. ( Might patch this if I feel like it )
