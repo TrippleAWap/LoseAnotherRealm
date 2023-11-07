@@ -11,4 +11,5 @@ npm install
 @echo Installation Complete, run `node index.js` or run start.bat to start the application.
 ```
 ⚠️ THIS IS NOT 100% FINISHED BUT NO UPDATES WILL BE PROMISED ⚠️
+
 💥 WE ARE NOT RESPONSIBLE FOR YOUR ACTIONS AND THIS MAY RESULT IN A BAN 💥
