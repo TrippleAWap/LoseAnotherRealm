@@ -62,7 +62,7 @@ const crash = async (options) => {
             await wait(3);
             console.log(`${new Date(Date.now()).toLocaleTimeString()} > ${options.username} joined! Sending packets...`);
             let i = 0;
-            while (i < (delay ? 99 : 999)) {
+            while (i < (delay ? 999 : 9999)) {
                 const pos = data.player_position ?? {
                     x: 0,
                     y: 0,
