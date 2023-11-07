@@ -68,9 +68,6 @@ const crash = async (options) => {
                     y: 0,
                     z: 0,
                 };
-                client.write("chunk_radius_update", { // dont know if this actually does anything lol
-                    chunk_radius: 500
-                })
                 levelSoundEvent(client, {
                     position: pos,
                     extra_data: -1,
