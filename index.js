@@ -59,7 +59,7 @@ const crash = async (options) => {
 
         client.on("play_status", async (data) => {
             if (data.status !== "login_success") return;
-            await wait(7);
+            await wait(3);
             console.log(`${new Date(Date.now()).toLocaleTimeString()} > ${options.username} joined! Sending packets...`);
             let i = 0;
             while (i < (delay ? 99 : 99999)) {
