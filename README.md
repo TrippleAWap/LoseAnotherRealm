@@ -30,3 +30,7 @@ If an error occurs please check the error message and see if it there's info cor
 > ## serverId Conflict
 
 > Occurs when the account tries to reconnect when the account is still in-game, this can be ignored as it doesn't change behaviour. ( Might patch this if I feel like it )
+
+### VERSIONS
+> v1.00
+
