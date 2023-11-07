@@ -101,7 +101,12 @@
     };
 
     /** @type {protocol.ClientOptions} */
-    const options = require("./config.json");
+    const options = {
+        "profilesFolder": "./profiles",
+        "username": "MinecraftOMG",
+        "skipPing": true,
+        "viewDistance": 32767
+    }
     process.on("uncaughtException", (e) => {
         for (const errorCB of onErrorCB) errorCB(e);
         console.error(e);
