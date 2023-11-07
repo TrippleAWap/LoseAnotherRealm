@@ -6,7 +6,9 @@ A Realm/Server crasher made using the bedrock-protocol packet which bypasses fai
 
 ```batch
 git clone https://github.com/TrippleAWap/LoseAnotherRealm.git
+cd LoseAnotherRealm
 npm install
+node index.js
 ```
 ⚠️ THIS IS NOT 100% FINISHED BUT NO UPDATES WILL BE PROMISED ⚠️
 
