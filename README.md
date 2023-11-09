@@ -30,5 +30,8 @@ If an error occurs please check the error message and see if it there's info cor
 
 > Occurs when the account tries to reconnect when the account is still in-game, this can be ignored as it doesn't change behaviour. ( Might patch this if I feel like it )
 
-### VERSIONS
-> v1.00
+### RELEASES
+> v1.00 -> First Release
+
+### UPDATE BOARD
+> v1.01 -> Subclients | 11/11/23
