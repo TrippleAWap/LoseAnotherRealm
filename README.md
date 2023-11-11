@@ -32,6 +32,7 @@ If an error occurs please check the error message and see if it there's info cor
 
 ### RELEASES
 > v1.01 -> Subclients, Crash Options, Realm List and Subclients.
+
 > v1.00 -> First Release
 
 ### UPDATE BOARD
