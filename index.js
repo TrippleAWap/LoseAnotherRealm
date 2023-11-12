@@ -28,7 +28,7 @@ for (const file of fs.readdirSync('./configs')) {
 }
 const crash = async (options) => {
     options.skipPing = true;
-    const delay = !!options.delay;
+    const delay = options.delay > 0;
 
     const run = async (count = 3) => {
         console.log(`${new Date().toLocaleTimeString()} > Starting ${count} client${count > 1 ? "s" : ""}...`);
