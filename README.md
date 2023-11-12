@@ -38,4 +38,6 @@ If an error occurs please check the error message and see if it there's info cor
 > v1.00 -> First Release
 
 ### UPDATE BOARD
+> v1.02 -> Configs and Multiple Accounts
 
+> v1.03 -> Subclients improved
