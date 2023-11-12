@@ -52,7 +52,6 @@ const crash = async (options, count = 3) => {
 
         client.once("disconnect", async (client, packet) => {
             if (typeof packet !== "string") packet = packet?.reason || "Unknown";
-            if (packet === 'disconnectionScreen.serverIdConflict') return disconnected(packet);
             return disconnected(packet);
         });
 
