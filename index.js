@@ -26,7 +26,7 @@ for (const file of fs.readdirSync('./configs')) {
     const data = yaml.load(fs.readFileSync(`./configs/${file}`, 'utf8'));
     configs[file.split('.').slice(0, -1)] = data;
 }
-const crash = async (options, count = 3) => {
+const crash = async (options) => {
     options.skipPing = true;
     const delay = !!options.delay;
 
@@ -37,7 +37,7 @@ const crash = async (options, count = 3) => {
         async function disconnected(data = "None") {
             if (Date.now() - this.lastCall < 2000) return;
             this.lastCall = Date.now();
-            console.log(`${new Date().toLocaleTimeString()} > ${client.clients[0].profile.name} disconnected!`, data);
+            console.log(`${new Date().toLocaleTimeString()} > ${client.clients[0].profile.name } disconnected! >>`, data);
             await client.destroy;
             if (data === "server_id_conflict" || data === "server_full") await wait(3000);
             await wait(5000);
@@ -88,7 +88,7 @@ const crash = async (options, count = 3) => {
         });
     };
 
-    run(count);
+    run(options.count);
 };
 /** @type {ClientOptions} */
 const options = {
