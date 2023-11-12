@@ -8,7 +8,7 @@ ACCOUNT: "MinecraftOMG"
 CLIENT_AMOUNT: 5
 #TARGET:
 #  # target ip
-#  IP: "asdasdsad"
+#  HOST: "asdasdsad"
 #  # target port
 #  PORT: 25565
 #  # target realmID
