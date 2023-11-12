@@ -14,6 +14,8 @@ node index.js
 ⚠️ THIS IS NOT 100% FINISHED BUT NO UPDATES WILL BE PROMISED ⚠️
 
 💥 WE ARE NOT RESPONSIBLE FOR YOUR ACTIONS AND THIS MAY RESULT IN A BAN 💥
+### INFO
+> The more clients you have the more likely it is to get rate limited. ( recommended is 3 - 5 )
 
 ### ERRORS
 If an error occurs please check the error message and see if it there's info coralated for said info. ***Automatic error conversion may be implemeted.***
