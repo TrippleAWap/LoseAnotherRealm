@@ -37,8 +37,8 @@ const crash = async (options, count = 3) => {
         async function disconnected(data = "None") {
             if (Date.now() - this.lastCall < 2000) return;
             this.lastCall = Date.now();
-            await client.destroy;
             console.log(`${new Date().toLocaleTimeString()} > ${client.clients[0].profile.name} disconnected!`, data);
+            await client.destroy;
             if (data === "server_id_conflict" || data === "server_full") await wait(3000);
             await wait(5000);
             await run(count);
