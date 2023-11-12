@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "bedrock-protocol": "^3.32.0"
+    "bedrock-protocol": "^3.32.0",
+    "js-yaml": "^4.1.0",
   }
 }
