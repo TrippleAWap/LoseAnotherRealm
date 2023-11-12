@@ -216,9 +216,7 @@ api.getRealms().then(async (d) => {
     console.table(configData);
     console.log(`Enter the config to use. ( eg. crash ) ( if config cannot be found, it will use no config )`);
     const config = await cin();
-    getRunConfig(configs[config]).then((config) => {
-        crash(config);
-    })
+    getRunConfig(configs[config]).then(crash)
 });
 
 const __o__emit = protocol.Client.prototype.emit;
