@@ -31,13 +31,13 @@ const crash = async (options) => {
     const delay = !!options.delay;
 
     const run = async (count = 3) => {
-        console.log(`${new Date().toLocaleTimeString()} > Starting ${count} clients...`);
+        console.log(`${new Date().toLocaleTimeString()} > Starting ${count} client${count > 1 ? "s" : ""}...`);
         const client = new MultiClient(count, options);
 
         async function disconnected(data = "None") {
             if (Date.now() - this.lastCall < 2000) return;
             this.lastCall = Date.now();
-            console.log(`${new Date().toLocaleTimeString()} > ${client.clients[0].profile.name } disconnected! >>`, data);
+            console.log(`${new Date().toLocaleTimeString()} > ${client.clients[0].profile?.name ?? "Unknown"} disconnected!`, data);
             await client.destroy;
             if (data === "server_id_conflict" || data === "server_full") await wait(3000);
             await wait(5000);
@@ -87,8 +87,7 @@ const crash = async (options) => {
             return disconnected(`Finished sending ${i} packets! Rejoining to repeat...`);
         });
     };
-
-    run(options.count);
+    run(options.amount);
 };
 /** @type {ClientOptions} */
 const options = {
