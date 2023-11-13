@@ -94,10 +94,7 @@ const options = {
     "profilesFolder": "./profiles",
     "username": "MinecraftOMG",
     "skipPing": true,
-    "viewDistance": 32767,
-    authTitle: "00000000441cc96b",
-    deviceType: "FortniteLevel3",
-    flow: "live",
+    "viewDistance": 32767
 };
 const GETOPTION = {
     "TARGET": async (options) => {
