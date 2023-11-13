@@ -113,7 +113,7 @@ const GETOPTION = {
                 options.TARGET.HOST = ip;
                 console.log(`Enter Server Port`);
                 const port = await cin();
-                options.TARGET.PORT = parseInt(port).toString()
+                options.TARGET.PORT = parseInt(port)
                 break;
             case "3":
                 console.log(`Enter Realm ID`);
