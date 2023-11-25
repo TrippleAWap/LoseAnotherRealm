@@ -1,7 +1,7 @@
 # if undefined it'll ask upon start
 
 # amount of packets sent on join
-PACKETS: 99999
+PACKETS: 999999
 # delay between packets
 DELAY: 0
 ACCOUNT: "MinecraftOMG"
