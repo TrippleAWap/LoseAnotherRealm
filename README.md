@@ -2,6 +2,11 @@
 A Realm/Server crasher made using the bedrock-protocol packet which bypasses fairplay and all automods!
 
 # MADE SOLELY BY trippleawap
+📣 THE CODE IS NOT FULLY OPTIMISED WILL BE OPTIMIZED UPON THE NEXT MASSIVE UDPATE 📣
+
+⚠️ THIS IS NOT 100% FINISHED BUT NO UPDATES WILL BE PROMISED ⚠️
+
+💥 WE ARE NOT RESPONSIBLE FOR YOUR ACTIONS AND THIS MAY RESULT IN A BAN 💥
 # INSTALLATION
 > Download GIT https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-64-bit.exe
 > Download NodeJS https://nodejs.org/dist/v20.10.0/node-v20.10.0-x64.msi
@@ -12,13 +17,6 @@ cd LoseAnotherRealm
 npm install
 node index.js
 ```
-📣 THE CODE IS NOT FULLY OPTIMISED WILL BE OPTIMIZED UPON THE NEXT MASSIVE UDPATE 📣
-
-⚠️ THIS IS NOT 100% FINISHED BUT NO UPDATES WILL BE PROMISED ⚠️
-
-💥 WE ARE NOT RESPONSIBLE FOR YOUR ACTIONS AND THIS MAY RESULT IN A BAN 💥
-### INFO
-> The more clients you have the more likely it is to get rate limited. ( recommended is 3 - 5 )
 
 ### ERRORS
 If an error occurs please check the error message and see if it there's info coralated for said info. ***Automatic error conversion may be implemeted.***
