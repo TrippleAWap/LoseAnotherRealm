@@ -13,6 +13,7 @@ A Realm/Server crasher made using the bedrock-protocol packet which bypasses fai
 > Download [NodeJS](https://nodejs.org/dist/v20.10.0/node-v20.10.0-x64.msi)
 
 > Open a terminal in install location and run the command below.
+
 ![image](https://github.com/TrippleAWap/LoseAnotherRealm/assets/90356816/cdfc31c0-cb0d-4a86-892f-8f121a47a7a3)
 ![image](https://github.com/TrippleAWap/LoseAnotherRealm/assets/90356816/1c4039e4-7790-4c30-a81e-265ca1365ce7)
 
