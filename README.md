@@ -8,8 +8,11 @@ A Realm/Server crasher made using the bedrock-protocol packet which bypasses fai
 
 💥 WE ARE NOT RESPONSIBLE FOR YOUR ACTIONS AND THIS MAY RESULT IN A BAN 💥
 # INSTALLATION
-> Download GIT https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-64-bit.exe
-> Download NodeJS https://nodejs.org/dist/v20.10.0/node-v20.10.0-x64.msi
+> Download [GIT](https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-64-bit.exe)
+
+> Download [NodeJS](https://nodejs.org/dist/v20.10.0/node-v20.10.0-x64.msi)
+
+
 > Open a terminal in install location and run the command below.
 ```batch
 git clone https://github.com/TrippleAWap/LoseAnotherRealm.git
