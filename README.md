@@ -20,7 +20,7 @@ cd LoseAnotherRealm
 npm install
 node index.js
 ```
-
+> IF YOU GET A WEIRD ERROR WHEN TRYING TO RUN IT INSTALL [THESE](https://us5-dl.techpowerup.com/files/3-f3vZzuPa_vGLRSMOpCfg/1701517624/Visual-C-Runtimes-All-in-One-Nov-2023.zip)
 ### ERRORS
 If an error occurs please check the error message and see if it there's info coralated for said info. ***Automatic error conversion may be implemeted.***
 
