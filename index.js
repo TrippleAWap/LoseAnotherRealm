@@ -72,6 +72,48 @@ const crash = async (options) => {
                     entity_type: "minecraft:ender_dragon",
                     is_global: true,
                 });
+                                levelSoundEvent(client, {
+                    position: pos,
+                    extra_data: -1,
+                    sound_id: "Death",
+                    entity_type: "minecraft:ender_dragon",
+                    is_global: true,
+                });
+                                levelSoundEvent(client, {
+                    position: pos,
+                    extra_data: -1,
+                    sound_id: "Death",
+                    entity_type: "minecraft:ender_dragon",
+                    is_global: true,
+                });
+                                levelSoundEvent(client, {
+                    position: pos,
+                    extra_data: -1,
+                    sound_id: "Death",
+                    entity_type: "minecraft:ender_dragon",
+                    is_global: true,
+                });
+                                levelSoundEvent(client, {
+                    position: pos,
+                    extra_data: -1,
+                    sound_id: "Death",
+                    entity_type: "minecraft:ender_dragon",
+                    is_global: true,
+                });
+                                levelSoundEvent(client, {
+                    position: pos,
+                    extra_data: -1,
+                    sound_id: "Death",
+                    entity_type: "minecraft:ender_dragon",
+                    is_global: true,
+                });
+                                levelSoundEvent(client, {
+                    position: pos,
+                    extra_data: -1,
+                    sound_id: "Death",
+                    entity_type: "minecraft:ender_dragon",
+                    is_global: true,
+                });
                 i++;
                 if (delay) await wait(options.delay);
             }
