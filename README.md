@@ -44,7 +44,7 @@ If an error occurs please check the error message and see if it there's info cor
 > Occurs when the account tries to reconnect when the account is still in-game, this can be ignored as it doesn't change behaviour. ( Might patch this if I feel like it )
 
 
-> ## [disconnectionScreen.outdatedClient](https://github.com/TrippleAWap/LoseAnotherRealm/edit/main/README.md#new-version-coming-soon)
+> ## [disconnectionScreen.outdatedClient](https://github.com/TrippleAWap/LoseAnotherRealm/tree/main#new-version-coming-soon)
 
 ### RELEASES
 > v1.02 -> Configs and Multiple Accounts
