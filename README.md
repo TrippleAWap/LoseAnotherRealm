@@ -1,3 +1,7 @@
+# NEW VERSION COMING SOON
+
+While were making the next version you can update the current version of the crasher by doing `npm i minecraft-data` if it doesn't automatically work after doing this go into `index.js` and add a paramater in the options called `version` with the current version of minecraft!
+
 # LoseAnotherRealm
 A Realm/Server crasher made using the bedrock-protocol packet which bypasses fairplay and all automods!
 
